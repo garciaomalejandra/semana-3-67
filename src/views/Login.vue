@@ -7,7 +7,7 @@
 <script>
 import TheLogin from '@/components/auth/TheLogin.vue'
 export default {
-    components:{
+    components: {
         TheLogin
     }
 }

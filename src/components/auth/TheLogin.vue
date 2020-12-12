@@ -1,11 +1,8 @@
 <template>
     <form>
         <div class="form-group">
-            <!-- Cambios: >User< -->
-            <label for="exampleInputEmail1">Email</label>
-            <!-- Cambios: type="text", id="exampleInputUser1" -->
-            <input v-model="login.email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <label for="exampleInputUser1">User</label>
+            <input v-model="login.email" type="email" class="form-control" id="exampleInputUser1">
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
@@ -22,8 +19,7 @@ export default {
     data(){
         return{
             login:{
-                // Cambios: user
-                email:'',
+                user:'',
                 password:''
             },
         }
